@@ -68,7 +68,9 @@
 <body>
     <div class="pcon">
         <div class="container">
+            <div class="heading">
           <h2> Create Project </h2>
+</div>
           <form action="addProject.php" method="POST">
                 <div class="form-group full-width">
                         <input type="text" name="title" id="fullname" placeholder="Enter Project title"> 

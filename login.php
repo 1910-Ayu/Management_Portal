@@ -49,7 +49,9 @@
 <body>
 <div class="pcon">
     <div class="container">
+        <div class="heading">
         <h2> Manager Login form </h2>
+</div>
     <form action="login.php" method="POST">
         <div class="form-group full-width">
             <input type="email" name="email" id="email" placeholder="Enter Email Address">

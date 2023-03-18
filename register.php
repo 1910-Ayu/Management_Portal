@@ -80,7 +80,9 @@
 <body>
     <div class="pcon">
     <div class="container">
+        <div class="heading">
         <h2> Manager Registration form </h2>
+</div>
         <form action="register.php" method="POST">
         <div class="form-group full-width">
             <input type="text" name="fullname" id="fullname" placeholder="Enter your Full Name">

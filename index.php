@@ -21,13 +21,13 @@
 <body>
 
 <div class="bg-image">
-        <div class="box-container">
-            <div class="box">
-                <h1>Project Management Portal</h1>
-                <div class="btt"> <a href="register.php"><button class="btn">Register</button></a></div>
-                <div class="btt"> <a href="login.php"><button class="btn">Login</button></a></div>
-            </div>
+        
+        <div class="box">
+            <h1>Project Management Portal</h1>
+            <div class="btt"> <a href="register.php"><button class="btn">Register</button></a></div>
+            <div class="btt"> <a href="login.php"><button class="btn">Login</button></a></div>
         </div>
+        
 </div>
 </body>
 </html>

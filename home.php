@@ -46,10 +46,10 @@
                       while($row1 = mysqli_fetch_array($res1)){
                      ?>
                      <div class="box">
-                        <p> Title:  <?php echo $row1['project_title'];?> </p>
-                        <p> Requirements:  <?php echo $row1['requirements'];?></p>
-                        <p> Created on:  <?php echo $row1['created_date'];?> </p>
-                        <p> Deadline:  <?php echo $row1['deadline_date'];?></p>
+                        <p> Title:  <span class="data"><?php echo $row1['project_title'];?> </span></p>
+                        <p> Requirements:  <span class="data"><?php echo $row1['requirements'];?></span></p>
+                        <p> Created on:  <span class="data"><?php echo $row1['created_date'];?></span> </p>
+                        <p> Deadline:  <span class="data"><?php echo $row1['deadline_date'];?></span></p>
                      </div>
                     
                      <?php } ?>
